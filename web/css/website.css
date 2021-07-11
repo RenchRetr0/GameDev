@@ -1,0 +1,235 @@
+.amblema{
+    width: 5%;
+}
+
+@keyframes hue-rotate {
+    0% {
+      filter: hue-rotate(0deg);
+    }
+    100% {
+        filter: hue-rotate(360deg);
+    }
+  }
+
+/* .imgs_bg {
+    width: 100%;
+    height: 720px;
+    z-index: 0;
+    align-self: flex-start;
+} */
+
+.fon{
+    background: url(/png/fon.png) center center/cover no-repeat;
+    min-height: 700px;
+}
+
+.rgb{
+    animation: hue-rotate linear 2.5s infinite;
+}
+
+.ert{
+    position: absolute;
+    z-index: 2;
+    top: 0px;
+    left: 515px;
+}
+
+.ert_1{
+    position: relative;
+}
+
+.sistemnik{
+    width: 290px;
+}
+
+.img:hover .sistemnik {
+    border: 2px solid #333;
+}
+
+.naushnike{
+    width: 130px;
+}
+
+.klava{
+    width: 370px;
+}
+
+.section-pack-1{
+    position: relative;
+}
+
+.section-pack-2{
+    z-index: 60;
+}
+
+/* Кнопка выхода */
+
+.out{
+    border: 0;
+    background: 0 0;
+    color: #ffffff;
+    margin-left: 35%;
+}
+
+.out:hover{
+    text-decoration: none;
+    color: #0be603;
+}
+
+/* Окно пользователя */
+.dropdown-menu{
+    opacity: 0;
+    visibility: hidden; 
+    background: #18181b;
+}
+.dropdown-menu.open{
+    opacity: 1;
+    visibility: visible; 
+    background: #18181b;
+    display: block;
+    left: -100px;
+    top: 60px;
+}
+
+.dropdown-menu > li > a {
+    color: #ffffff;
+}
+
+.dropdown-menu > li > a:hover {
+    text-decoration: none;
+    color: #0be603;
+    fill: #0be603;
+
+}
+
+.avatar{
+    max-width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    vertical-align: middle;
+    border-style: none;
+    margin: auto;
+    position: relative;
+}
+
+.avatar1{
+    max-width: 40%;
+}
+
+.login{
+    color: white;
+    background-color: #000;
+    border-bottom: 1px solid red;
+}
+
+.line{
+    border-bottom: 1px solid red;
+}
+
+.iop{
+    padding-right: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.iop:hover{
+    text-decoration: none;
+    /* color: #0be603; */
+}
+
+.jyt{
+    display: flex !important;
+    align-items: center !important;
+}
+
+.jyt:hover{
+    color: #0be603;
+    fill: #0be603;
+}
+
+.svg{
+    fill: white;
+    width: 15%;
+    margin-right: 15px;
+    margin-left: 10px;
+}
+
+.dropdown-menu > li > a{
+    padding: 0px;
+    padding-left: 10px;
+}
+.dropdown-toggle{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+/* Для своего хедера */
+*{
+    box-sizing: border-box;
+}
+
+.header{
+    z-index: 1000;
+    flex-shrink: 0 !important;
+    background: rgb(41, 41, 41);
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    justify-content: space-between;
+    -ms-align-items: center;
+    align-items: center;
+    border-bottom: 2px solid #0be603;
+}
+
+.profil{
+    display: flex !important;
+    align-items: center !important;
+}
+
+.profil:hover .svg{
+    fill: #0be603;
+}
+
+.profil:hover .iop{
+    color: #0be603;
+}
+
+.i{
+    width: 59px;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.mnu_top{
+    list-style-type: none;
+}
+
+.mnu_top li{
+    display: inline-block;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+.mnu_top li a{
+    display: block;
+    color: white;
+    font-size: 19px;
+    font-weight: 600;
+    -webkit-transition: color .4s ease;
+    -o-transition: color .4s ease;
+    transition: color .4s ease;
+}
+
+.mnu_top li a:hover{
+    text-decoration: none;
+    color: #e41f2f;
+}
+
+.guest{
+    width: 65px;
+}
+
+.dropdown-menu > li > a:hover{
+    color: #0be603;
+    background-color: #18181b;
+}
